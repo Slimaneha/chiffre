@@ -47,6 +47,8 @@ function cachecache2206 ()
 {
     document.getElementById("tables2206").style.display="block"
     document.getElementById("tables2906").style.display="none"
+    document.getElementById("tables0607").style.display="none"
+
    
 
 
@@ -59,7 +61,8 @@ function cachecache2906 ()
 {
     document.getElementById("tables2206").style.display="none"
     document.getElementById("tables2906").style.display="block"
-    document.getElementById("Semaine2206").style.color="black"
+    document.getElementById("tables0607").style.display="none"
+
 
 
     
@@ -72,6 +75,7 @@ function cachecache0607 ()
     document.getElementById("tables0607").style.display="block"
     document.getElementById("tables2906").style.display="none"
     document.getElementById("Semaine2206").style.display="none"
+    alert("je fonctione quand même")
 
 
     
@@ -196,6 +200,8 @@ function back ()
 
         document.getElementById("tables2906").style.display="none"
         document.getElementById("tables2206").style.display="none"
+        document.getElementById("tables0607").style.display="none"
+
 
 
 }

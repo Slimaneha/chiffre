@@ -265,7 +265,7 @@ rtotal2906=document.getElementById("290620Restltr")
 
 
 
-afficheR1ubr2906= 0 
+afficheR1ubr2906= 8
 afficheR2ubr2906= 0
 afficheR3ubr2906= 0
 afficheR4ubr2906= 0
@@ -273,7 +273,7 @@ afficheR5ubr2906= 0
 afficheR6ubr2906= 0
 afficheR7ubr2906= 0 
 
-afficheR1dev2906= 0
+afficheR1dev2906= 8.17
 afficheR2dev2906= 0
 afficheR3dev2906= 0
 afficheR4dev2906= 0
