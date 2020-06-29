@@ -105,6 +105,14 @@ textarea {
         width: 100% !important;
     }
 
+
+    a:hover {
+        margin-top: 1em;
+        transition: 1s;
+        color: white !important ;
+        background-color: #32383E;
+        
+    }
     
 
     strong{
@@ -150,7 +158,7 @@ textarea {
         font-size: 18px;
     }
 
-    #tables2206 ,#tables2906 {
+    #tables2206, #tables2906 {
         display: none;
     } 
 
