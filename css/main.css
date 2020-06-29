@@ -128,22 +128,25 @@ textarea {
     
   
 
-    select option {
-        text-align: center !important;
-    }
-
+  
    
     .flex{
         display: flex; 
-        justify-content: center;   
-        flex-wrap: wrap !important ;  
+        justify-content: center; 
+        flex-wrap: wrap !important;
     }  
 
     ul li {
         list-style: none;
-        margin-left:  1em ;
+        margin-left:  2em ;
         margin-top: 1em;
+        justify-content: center;
+        flex-wrap: wrap !important;
     }
+     #moiPrincipal li  
+     {
+            margin-left: 3em !important;
+     }
 
     .depauto {
         background-color: #b82010;
@@ -163,7 +166,7 @@ textarea {
         font-size: 18px;
     }
 
-    #tables2206, #tables2906,#tables0607 {
+    #tables2206, #tables2906,#tables0607,#tables1307 {
         display: none;
     } 
 
@@ -180,6 +183,7 @@ textarea {
     }
      
 
+   
     
 
     
