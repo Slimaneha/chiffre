@@ -47,10 +47,7 @@ function cachecache2206 ()
 {
     document.getElementById("tables2206").style.display="block"
     document.getElementById("tables2906").style.display="none"
-    document.getElementById("Semaine2206").style.backgroundColor="#32383E"
-    document.getElementById("Semaine2906").style.backgroundColor="#F2F2F2"
-    document.getElementById("Semaine2206").style.color="#F2F2F2"
-    document.getElementById("Semaine2906").style.color="black"
+   
 
 
 
@@ -62,9 +59,6 @@ function cachecache2906 ()
 {
     document.getElementById("tables2206").style.display="none"
     document.getElementById("tables2906").style.display="block"
-    document.getElementById("Semaine2906").style.backgroundColor="#32383E"
-    document.getElementById("Semaine2206").style.backgroundColor="#F2F2F2"
-    document.getElementById("Semaine2906").style.color="#F2F2F2"
     document.getElementById("Semaine2206").style.color="black"
 
 
@@ -73,15 +67,142 @@ function cachecache2906 ()
     
 }
 
+function cachecache0607 ()
+{
+    document.getElementById("tables0607").style.display="block"
+    document.getElementById("tables2906").style.display="none"
+    document.getElementById("Semaine2206").style.display="none"
 
-moi = ""
 
-function recup () 
+    
+
+    
+}
+
+
+moiP = document.getElementById("moiPrincipal")
+sejuin = document.getElementById("semainejuin")
+sejuillet = document.getElementById("semaineJuillet")
+
+
+moi = 0
+
+
+
+function recup01 () 
 
 {
-    moi=01
-    alert(moi)
+    moiP.style.display="none"
+    
 }
+
+function recup02 () 
+
+{
+    moiP.style.display="none"
+    
+}
+
+function recup03 () 
+
+{
+    moiP.style.display="none"
+    
+}
+
+function recup04 () 
+
+{
+    moiP.style.display="none"
+    
+}
+function recup05 () 
+
+{
+    moiP.style.display="none"
+    
+}
+
+
+function recup06 () 
+
+{
+    moiP.style.display="none"
+    sejuin.style.display="flex"
+    
+}
+
+function recup07 () 
+
+{
+    moiP.style.display="none"
+    sejuillet.style.display="flex"
+    
+
+
+    
+    
+}
+
+function recup08 () 
+
+{
+    moiP.style.display="none"
+    
+}
+
+function recup09 () 
+
+{
+    moiP.style.display="none"
+    
+}
+
+function recup10 () 
+
+{
+    moiP.style.display="none"
+    
+}
+
+function recup11 () 
+
+{
+    moiP.style.display="none"
+    
+}
+
+function recup12 () 
+
+{
+    moiP.style.display="none"
+    
+}
+
+
+
+
+
+
+
+
+
+
+function back ()
+{
+        moiP.style.display="flex"
+        sejuillet.style.display="none"
+        sejuin.style.display="none"
+
+        document.getElementById("tables2906").style.display="none"
+        document.getElementById("tables2206").style.display="none"
+
+
+}
+
+
+
+
 
 
 

@@ -113,6 +113,11 @@ textarea {
         background-color: #32383E;
         
     }
+
+    #semainejuin, #semaineJuillet
+    {
+        display: none;
+    }
     
 
     strong{
@@ -158,7 +163,7 @@ textarea {
         font-size: 18px;
     }
 
-    #tables2206, #tables2906 {
+    #tables2206, #tables2906,#tables0607 {
         display: none;
     } 
 

@@ -104,64 +104,64 @@
 
 
 
-          <ul class="flex">
+          <ul id="moiPrincipal" class="flex">
             <il>
-              <a class="card">
-                <div onClick="recup ()"   class="card-body"><cite id="janvier"></cite></div o>
+              <a onClick="recup01 ()" onClick="recupChoix ()"  class="card">
+                <div    class="card-body"><cite id="janvier"></cite></div o>
               </a>
             </il>
             <il>
-              <a class="card">
+              <a  onClick="recup02 ()" onClick="recupChoix ()" class="card">
                 <div class="card-body"><cite  id="fevrier"></cite></div>
               </a>
             </il>
             <il>
-              <a class="card">
+              <a onClick="recup03 ()" class="card">
                 <div  class="card-body"><cite id="mars"></cite></div>
               </a>
             </il>
             <il>
-              <a class="card">
+              <a onClick="recup04 ()" class="card">
                 <divi  class="card-body"><cite id="avril"></cite></divi>
               </a>
             </il>
             <il>
-              <a class="card">
+              <a  onClick="recup05 ()" class="card">
                 <div class="card-body"><cite id="mai" ></cite></div>
               </a>
             </il>
             <il>
-              <a class="card">
-                <div  class="card-body"><cite id="juin"></cite></div>
+              <a onClick="recup06 ()" class="card">
+                <div   class="card-body"><cite id="juin"></cite></div>
               </a>
             </il>
             <il>
-              <a class="card">
+              <a  onClick="recup07 ()"class="card">
                 <div  class="card-body"><cite id="juillet"></cite></div>
               </a>
             </il>
             <il>
-              <a class="card">
+              <a  onClick="recup08 ()" class="card">
                 <div  class="card-body"><cite id="août"> </cite></div>
               </a>
             </il>
             <il>
-              <a class="card">
+              <a  onClick="recup09 ()" class="card">
                 <div  class="card-body"><cite id="septembre"> </cite></div>
               </a>
             </il>
             <il>
-              <a class="card">
+              <a  onClick="recup10 ()" class="card">
                 <div  class="card-body"><cite id="octobre"></cite></div>
               </a>
             </il>
             <il>
-              <a class="card">
+              <a  onClick="recup11 ()" class="card">
                 <div  class="card-body"><cite id="novembre"></cite></div>
               </a>
             </il>
             <il>
-              <a class="card">
+              <a  onClick="recup12 ()" class="card">
                 <div  class="card-body"><cite id="décembre"></cite></div>
               </a>
             </il>
@@ -171,7 +171,7 @@
 
 
 
-         <ul id="semaine" class="flex gg">
+         <ul id="semainejuin" class="flex gg">
            <li><a id="Semaine2206" class="card  ">
             <div class="card-body" onclick="cachecache2206 ()">
             <cite>Semaine Du 22/06/2020 au 28/07/2020</cite>  
@@ -185,19 +185,52 @@
 
 
 
-           <li><div class="card  ">
-            <a  class="card-body">
+          
+          <li><a onclick="back ()" class="card alert-danger  ">
+            <div class="card-body">
+             <cite>Retour</cite> 
+            </div>
+          </a></li>
+          
+        </li>
+         </ul>
+
+          
+
+         <ul id="semaineJuillet">
+          <li><a onclick="cachecache0607 ()" class="card  ">
+            <div class="card-body">
              <cite>Semaine du 06/07/20 au  12/07/20</cite> 
-            </a>
-          </div></li>
+            </div>
+          </a></li>
            <li><a class="card  ">
             <div class="card-body">
              <cite>Semaine du 13/07/20 au 19/07/20</cite> 
             </div>
+          </a>
+
+          <li><a class="card  ">
+            <div class="card-body">
+             <cite>Semaine du 20/07/20 au 26/07/20</cite> 
+            </div>
+          </a>
+        </li>
+
+          <li><a class="card  ">
+            <div class="card-body">
+             <cite>Semaine du 27/07/20 au 02/07/20</cite> 
+            </div>
+          </a>
+          </li>
+          
+        </br>
+
+          <li><a onclick="back ()" class="card alert-danger  ">
+            <div class="card-body">
+             <cite>Retour</cite> 
+            </div>
           </a></li>
          </ul>
-
-          
           
          
 
@@ -211,7 +244,7 @@
       <!-- Debut tablau -->
     <div  >
 
-            <h4 id="Semaine"></h4>
+           
         <!-- Semaine du 22/06/20 -->
 
         <div id="tables2206" class="tables2206">
@@ -314,7 +347,7 @@
 
             <!-- Semaine du 29/06/20-->
 
-            <div id="tables2906" class="tables2206">
+            <div id="tables2906" class="tables2906">
 
               <div  class="revenu"> 
                   
@@ -386,8 +419,8 @@
   
                         <tr>
                           <th scope="row">total par application & total dépenses</th>
-                          <td class="revenuauto"  id="ubrsemaine01total"></td>
-                          <td class="revenuauto"  id="delisemaine01total"> </td>
+                          <td class="revenuauto"  id="ubrsemaine2906total"></td>
+                          <td class="revenuauto"  id="delisemaine2906total"> </td>
                           <td  class="depauto" id="dep290620D"></td>
   
                         </tr>
@@ -413,7 +446,102 @@
     
             
 
-       
+          <!-- Semaine du 06/07/20-->
+
+          <div id="tables0607" class="tables0607">
+
+            <div  class="revenu"> 
+                
+                <table class="table">
+                    <thead class="thead-light">
+                      <tr>
+                        <th>jour</th>
+                        <th>Uber</th>
+                        <th>Deliveroo</th>
+                        <th>Dépenses Scooter Journalier </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td class="revenuauto" id="06072001r"></td>
+                        <td class="revenuauto" id="06072001deli"></td>
+                        <td class="depauto" id="06072001d"></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td class="revenuauto" id="06072002r" ></td>
+                        <td class="revenuauto" id="06072002deli"></td>
+                        <td  class="depauto" id="06072002d"></td>
+        
+        
+        
+                       
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td class="revenuauto"  id="06072003r" ></td>
+                        <td class="revenuauto"  id="06072003deli"></td>
+                        <td  class="depauto" id="06072003d"></td>
+        
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td class="revenuauto"  id="06072004r"></td>
+                        <td class="revenuauto" id="06072004deli"></td>
+                        <td  class="depauto" id="06072004d"></td>
+        
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td class="revenuauto"  id="06072005r"></td>
+                        <td class="revenuauto"  id="06072005deli"></td>
+                        <td  class="depauto" id="06072005d"></td>
+        
+                      </tr>
+        
+                      <tr>
+                        <th scope="row">6</th>
+                        <td class="revenuauto"  id="06072006r"></td>
+                        <td  class="revenuauto"  id="06072006deli"></td>
+                        <td  class="depauto" id="06072006d"></td>
+        
+                      </tr>
+        
+                      
+                      <tr>
+                        <th scope="row">7</th>
+                        <td class="revenuauto"  id="06072007r"></td>
+                        <td class="revenuauto" id="06072007deli"></td>
+                        <td  class="depauto" id="06072007d"></td>
+        
+                      </tr>
+        
+        
+                      <tr>
+                        <th scope="row">total par application & total dépenses</th>
+                        <td class="revenuauto"  id="ubrsemaine0607total"></td>
+                        <td class="revenuauto"  id="delisemaine0607total"> </td>
+                        <td  class="depauto" id="dep060720D"></td>
+        
+                      </tr>
+                      <tr>
+                        <th scope="row">total </th>
+                        <td  class="revenuauto" style="text-align: center;" id="060720Restltr"></td>
+                        <td class="totaldepEtRevenu" id="060720Restltd"></td>
+        
+                      
+                      </tr>
+        
+        
+        
+                     
+        
+                    </tbody>
+                  </table>
+                  
+        
+            </div>
 
     
 
