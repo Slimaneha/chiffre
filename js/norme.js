@@ -4,12 +4,12 @@ var Janvier = document.getElementById("janvier")
     var avril = document.getElementById("avril")
     var mai = document.getElementById("mai")
     var juin = document.getElementById("juin")
-    var juillet = document.getElementById("Juillet")
-    var aout = document.getElementById("Aout")
-    var septembre = document.getElementById("Septembre")
-    var octobre = document.getElementById("Octobre")
-    var novembre = document.getElementById("Novembre")
-    var decembre = document.getElementById("Décembre")
+    var juillet = document.getElementById("juillet")
+    var aout = document.getElementById("août")
+    var septembre = document.getElementById("septembre")
+    var octobre = document.getElementById("octobre")
+    var novembre = document.getElementById("novembre")
+    var decembre = document.getElementById("décembre")
  
 
 
@@ -19,7 +19,20 @@ var Janvier = document.getElementById("janvier")
     function affichemoi   ()
     
     {
-            Janvier.innerHTML="janvier"
+            Janvier.innerHTML="Janvier"
+            fevrier.innerHTML="Fevrier"
+            mars.innerHTML="Mars"
+            avril.innerHTML="Avril"
+            mai.innerHTML="Mai"
+            juin.innerHTML="Juin"
+            juillet.innerHTML="Juillet"
+            aout.innerHTML="Août"
+            septembre.innerHTML="Spetembre"
+            octobre.innerHTML="Octobre"
+            novembre.innerHTML="novembre"
+            decembre.innerHTML="Décembre"
+
+
             
     }
 
@@ -59,5 +72,17 @@ function cachecache2906 ()
 
     
 }
+
+
+moi = ""
+
+function recup () 
+
+{
+    moi=01
+    alert(moi)
+}
+
+
 
 
