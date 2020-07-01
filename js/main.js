@@ -38,7 +38,7 @@ afficheR3ubr2206= 85
 afficheR4ubr2206= 83.41
 afficheR5ubr2206= 39.12
 afficheR6ubr2206= 47.32
-afficheR7ubr2206= 0 
+afficheR7ubr2206= 7.80
 
 afficheR1dev2206= 4.45
 afficheR2dev2206= 28.60
@@ -46,7 +46,7 @@ afficheR3dev2206= 31.66
 afficheR4dev2206= 10.89
 afficheR5dev2206= 10.89
 afficheR6dev2206= 25.74
-afficheR7dev2206= 0 
+afficheR7dev2206= 4 
 
 
 afficheDepences012206 = 0
@@ -266,7 +266,7 @@ rtotal2906=document.getElementById("290620Restltr")
 
 
 afficheR1ubr2906= 8
-afficheR2ubr2906= 0
+afficheR2ubr2906= 63.47
 afficheR3ubr2906= 0
 afficheR4ubr2906= 0
 afficheR5ubr2906= 0
@@ -274,7 +274,7 @@ afficheR6ubr2906= 0
 afficheR7ubr2906= 0 
 
 afficheR1dev2906= 8.17
-afficheR2dev2906= 0
+afficheR2dev2906= 35.85
 afficheR3dev2906= 0
 afficheR4dev2906= 0
 afficheR5dev2906= 0
@@ -283,7 +283,7 @@ afficheR7dev2906= 0
 
 
 afficheDepences012906 = 0
-afficheDepences022906 = 0
+afficheDepences022906 = 15
 afficheDepences032906 = 0
 afficheDepences042906 = 0
 afficheDepences052906 = 0
@@ -343,6 +343,7 @@ function calculeSemaine012906 ()
     
 
 }
+
 
 
 
@@ -412,13 +413,13 @@ function afficheSemaine12906 ()
      }
 
 
+            
+
+
+
 
 
 afficheSemaine12906()
-
-
-
-
 
 
 

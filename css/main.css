@@ -155,16 +155,7 @@ textarea {
         color: white;
     }
 
-    .totaldepEtRevenu {
-        background-color: #ED7F10
-        ;
-    }
-
-    .revenuauto {
-        background-color: #04A70B;
-        font-style: bold;
-        font-size: 18px;
-    }
+   
 
     #tables2206, #tables2906,#tables0607,#tables1307 {
         display: none;

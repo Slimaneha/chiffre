@@ -219,8 +219,8 @@ function back ()
 
         document.getElementById("tables2906").style.display="none"
         document.getElementById("tables2206").style.display="none"
-            document.getElementById("tables0607").style.display="none"
-            document.getElementById("tables1307").style.display="none"
+        document.getElementById("tables0607").style.display="none"
+        document.getElementById("tables1307").style.display="none"
 
 
 
