@@ -92,7 +92,6 @@ function cachecache1307 ()
 {
     document.getElementById("tables0607").style.display="none"
     document.getElementById("tables2906").style.display="none"
-    document.getElementById("Semaine2206").style.display="none"
     document.getElementById("tables1307").style.display="block"
 
 

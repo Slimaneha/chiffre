@@ -37,7 +37,7 @@ afficheR2ubr2206= 51.31
 afficheR3ubr2206= 85
 afficheR4ubr2206= 83.41
 afficheR5ubr2206= 39.12
-afficheR6ubr2206= 47.32
+afficheR6ubr2206= 47.30
 afficheR7ubr2206= 7.80
 
 afficheR1dev2206= 4.45
@@ -175,8 +175,10 @@ function afficheSemaine12206 ()
         document.getElementById("dep220620D").innerHTML=TotalDepences2206
       
         document.getElementById("220620Restltd").innerHTML=depensesetrevenu220620
+        document.getElementById("delisemaine01total").innerHTML=resulatdeli2206
+        document.getElementById("ubrsemaine01total").innerHTML=reslatUBR2206
 
-     }
+    }
 
 
 
@@ -267,7 +269,7 @@ rtotal2906=document.getElementById("290620Restltr")
 
 afficheR1ubr2906= 8
 afficheR2ubr2906= 63.47
-afficheR3ubr2906= 0
+afficheR3ubr2906= 42.59
 afficheR4ubr2906= 0
 afficheR5ubr2906= 0
 afficheR6ubr2906= 0
@@ -275,7 +277,7 @@ afficheR7ubr2906= 0
 
 afficheR1dev2906= 8.17
 afficheR2dev2906= 35.85
-afficheR3dev2906= 0
+afficheR3dev2906= 19.19
 afficheR4dev2906= 0
 afficheR5dev2906= 0
 afficheR6dev2906= 0
@@ -284,7 +286,7 @@ afficheR7dev2906= 0
 
 afficheDepences012906 = 0
 afficheDepences022906 = 15
-afficheDepences032906 = 0
+afficheDepences032906 = 5.61
 afficheDepences042906 = 0
 afficheDepences052906 = 0
 afficheDepences062906 = 0
@@ -409,13 +411,38 @@ function afficheSemaine12906 ()
         document.getElementById("dep290620D").innerHTML=TotalDepences2906
       
         document.getElementById("290620Restltd").innerHTML=depensesetrevenu290620
+        document.getElementById("delisemaine2906total").innerHTML=resulatdeli2206
+        document.getElementById("ubrsemaine2906total").innerHTML=reslatUBR2906
+
+
+
 
      }
 
 
+     function compartSemaine () 
+     
+     {
+            if ( rtotal2206>rtotal2906) 
+            {
+                document.getElementById("220620Restltr").style.backgroundColor="#04A70B"
+                document.getElementById("220620Restltd").style.backgroundColor="#04A70B"
+
+            }
+
+            else 
+            {
+                document.getElementById("220620Restltr").style.backgroundColor="#ED7F10"
+                document.getElementById("220620Restltd").style.backgroundColor="#ED7F10"
+
+            }
+
+            
+     }
+
             
 
-
+     compartSemaine ()
 
 
 
