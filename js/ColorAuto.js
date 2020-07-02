@@ -421,3 +421,25 @@ function colorAutoTest ()
 
 
             colorAutoTest ()
+
+
+
+
+
+
+
+            function topSemaine ()
+            {
+                if (rtotal2206>rtotal2906) 
+                {
+                    document.getElementById("top").innerHTML=rtotal2206
+                }
+            
+                else if (rtotal2906>rtotal2206) 
+                {
+                    document.getElementById("top").innerHTML=rtotal2906
+                }
+            }
+            
+            
+            topSemaine () 

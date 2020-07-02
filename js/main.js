@@ -270,7 +270,7 @@ rtotal2906=document.getElementById("290620Restltr")
 afficheR1ubr2906= 8
 afficheR2ubr2906= 63.47
 afficheR3ubr2906= 42.59
-afficheR4ubr2906= 0
+afficheR4ubr2906= 55.98
 afficheR5ubr2906= 0
 afficheR6ubr2906= 0
 afficheR7ubr2906= 0 
@@ -278,7 +278,7 @@ afficheR7ubr2906= 0
 afficheR1dev2906= 8.17
 afficheR2dev2906= 35.85
 afficheR3dev2906= 19.19
-afficheR4dev2906= 0
+afficheR4dev2906= 47.08
 afficheR5dev2906= 0
 afficheR6dev2906= 0
 afficheR7dev2906= 0 
@@ -447,6 +447,8 @@ function afficheSemaine12906 ()
 
 
 afficheSemaine12906()
+
+
 
 
 
