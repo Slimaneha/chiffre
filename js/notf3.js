@@ -1,0 +1,11 @@
+jour12206.innerHTML=afficheR1dev2206+afficheR1ubr2206
+jour22206.innerHTML=afficheR2dev2206+afficheR2ubr2206
+jour32206.innerHTML=afficheR3dev2206+afficheR3ubr2206
+jour42206.innerHTML=afficheR4dev2206+afficheR4ubr2206
+jour52206.innerHTML=afficheR5dev2206+afficheR5ubr2206
+jour62206.innerHTML=afficheR6dev2206+afficheR6ubr2206
+jour72206.innerHTML=afficheR7dev2206+afficheR7ubr2206
+
+
+
+

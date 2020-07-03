@@ -271,7 +271,7 @@ afficheR1ubr2906= 8
 afficheR2ubr2906= 63.47
 afficheR3ubr2906= 42.59
 afficheR4ubr2906= 55.98
-afficheR5ubr2906= 0
+afficheR5ubr2906= 37.08
 afficheR6ubr2906= 0
 afficheR7ubr2906= 0 
 
@@ -279,7 +279,7 @@ afficheR1dev2906= 8.17
 afficheR2dev2906= 35.85
 afficheR3dev2906= 19.19
 afficheR4dev2906= 47.08
-afficheR5dev2906= 0
+afficheR5dev2906= 6.50
 afficheR6dev2906= 0
 afficheR7dev2906= 0 
 
@@ -287,8 +287,8 @@ afficheR7dev2906= 0
 afficheDepences012906 = 0
 afficheDepences022906 = 15
 afficheDepences032906 = 5.61
-afficheDepences042906 = 0
-afficheDepences052906 = 0
+afficheDepences042906 = 4.60
+afficheDepences052906 = 5
 afficheDepences062906 = 0
 afficheDepences072906 = 0
 
@@ -302,6 +302,62 @@ resulatdeli2906=''
 
 
 
+// Resulat part jour 
+
+jour12206 = document.getElementById("Jour1S2206")
+jour22206 = document.getElementById("Jour2S2206")
+jour32206 = document.getElementById("Jour3S2206")
+jour42206 = document.getElementById("Jour4S2206")
+jour52206 = document.getElementById("Jour5S2206")
+jour62206 = document.getElementById("Jour6S2206")
+jour72206 = document.getElementById("Jour7S2206")
+
+jour12906 = document.getElementById("Jour1S2906")
+jour22906 = document.getElementById("Jour2S2906")
+jour32906 = document.getElementById("Jour3S2906")
+jour42906 = document.getElementById("Jour4S2906")
+jour52906 = document.getElementById("Jour5S2906")
+jour62906 = document.getElementById("Jour6S2906")
+jour72906 = document.getElementById("Jour7S2906")
+
+
+
+
+
+
+
+function calculeJour () 
+{
+
+
+    // Semaine 22/06
+jour12206.innerHTML=afficheR1dev2206+afficheR1ubr2206
+jour22206.innerHTML=afficheR2dev2206+afficheR2ubr2206
+jour32206.innerHTML=afficheR3dev2206+afficheR3ubr2206
+jour42206.innerHTML=afficheR4dev2206+afficheR4ubr2206
+jour52206.innerHTML=afficheR5dev2206+afficheR5ubr2206
+jour62206.innerHTML=afficheR6dev2206+afficheR6ubr2206
+jour72206.innerHTML=afficheR7dev2206+afficheR7ubr2206
+
+    // Semaine 29/06
+jour12906.innerHTML=afficheR1dev2906+afficheR1ubr2906
+jour22906.innerHTML=afficheR2dev2906+afficheR2ubr2906
+jour32906.innerHTML=afficheR3dev2906+afficheR3ubr2906
+jour42906.innerHTML=afficheR4dev2906+afficheR4ubr2906
+jour52906.innerHTML=afficheR5dev2906+afficheR5ubr2906
+jour62906.innerHTML=afficheR6dev2906+afficheR6ubr2906
+jour72906.innerHTML=afficheR7dev2906+afficheR7ubr2906
+
+
+
+
+
+
+
+
+}
+
+calculeJour()
 
 afficheTotalSemaine2906=reslatTotal2906
 
