@@ -233,3 +233,33 @@ function back ()
 
 
 
+
+
+
+// compart semaine 
+
+
+
+function compartSemaine () 
+     
+{
+       if ( reslatTotal2206>reslatTotal2906) 
+       {
+           document.getElementById("220620Restltr").style.backgroundColor="#04A70B"
+           document.getElementById("290620Restltd").style.backgroundColor="#ED7F10"
+
+       }
+
+       else 
+       {
+           document.getElementById("290620Restltr").style.backgroundColor="#ED7F10"
+           document.getElementById("220620Restltd").style.backgroundColor="#ED7F10"
+
+       }
+
+       
+}
+
+       
+
+compartSemaine ()

@@ -476,30 +476,6 @@ function afficheSemaine12906 ()
      }
 
 
-     function compartSemaine () 
-     
-     {
-            if ( rtotal2206>rtotal2906) 
-            {
-                document.getElementById("220620Restltr").style.backgroundColor="#04A70B"
-                document.getElementById("220620Restltd").style.backgroundColor="#04A70B"
-
-            }
-
-            else 
-            {
-                document.getElementById("220620Restltr").style.backgroundColor="#ED7F10"
-                document.getElementById("220620Restltd").style.backgroundColor="#ED7F10"
-
-            }
-
-            
-     }
-
-            
-
-     compartSemaine ()
-
 
 
 afficheSemaine12906()
@@ -693,3 +669,21 @@ afficheSemaine10607()
 
 
 
+
+
+
+function topSemaine ()
+{
+    if (reslatTotal2206>reslatTotal2906) 
+    {
+        document.getElementById("top").innerHTML=reslatTotal2206
+    }
+
+    else if (rtotal2906>rtotal2206) 
+    {
+        document.getElementById("top").innerHTML=reslatTotal2906
+    }
+}
+
+
+topSemaine () 
