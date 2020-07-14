@@ -49,6 +49,9 @@ function cachecache2206 ()
     document.getElementById("tables2906").style.display="none"
     document.getElementById("tables0607").style.display="none"
     document.getElementById("tables1307").style.display="none"
+    document.getElementById("tables2007").style.display="none"
+    document.getElementById("tables2707").style.display="none"
+
 
 
    
@@ -65,6 +68,10 @@ function cachecache2906 ()
     document.getElementById("tables2906").style.display="block"
     document.getElementById("tables0607").style.display="none"
     document.getElementById("tables1307").style.display="none"
+    document.getElementById("tables2007").style.display="none"
+    document.getElementById("tables2707").style.display="none"
+
+
 
 
 
@@ -79,6 +86,9 @@ function cachecache0607 ()
     document.getElementById("tables0607").style.display="block"
     document.getElementById("tables2906").style.display="none"
     document.getElementById("tables1307").style.display="none"
+    document.getElementById("tables2007").style.display="none"
+    document.getElementById("tables2707").style.display="none"
+
 
 
 
@@ -92,6 +102,46 @@ function cachecache1307 ()
     document.getElementById("tables0607").style.display="none"
     document.getElementById("tables2906").style.display="none"
     document.getElementById("tables1307").style.display="block"
+    document.getElementById("tables2007").style.display="none"
+    document.getElementById("tables2707").style.display="none"
+
+
+
+
+
+    
+
+    
+}
+
+
+function cachecache2007 ()
+{
+    document.getElementById("tables0607").style.display="none"
+    document.getElementById("tables2906").style.display="none"
+    document.getElementById("tables1307").style.display="none"
+    document.getElementById("tables2007").style.display="block"
+    document.getElementById("tables2707").style.display="none"
+
+
+
+
+
+    
+
+    
+}
+
+
+function cachecache2707 ()
+{
+    document.getElementById("tables0607").style.display="none"
+    document.getElementById("tables2906").style.display="none"
+    document.getElementById("tables1307").style.display="none"
+    document.getElementById("tables2007").style.display="none"
+    document.getElementById("tables2707").style.display="block"
+
+
 
 
 

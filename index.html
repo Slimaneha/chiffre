@@ -215,14 +215,14 @@
           </a>
            </li>
 
-          <li><a class="card  ">
+          <li><a onclick="cachecache2007 ()" class="card  ">
             <div class="card-body">
              <cite>Semaine du 20/07/20 au 26/07/20</cite> 
             </div>
           </a>
         </li>
 
-          <li><a class="card  ">
+          <li><a onclick="cachecache2707 ()" class="card  ">
             <div class="card-body">
              <cite>Semaine du 27/07/20 au 02/08/20</cite> 
             </div>
@@ -238,6 +238,7 @@
           </a></li>
          </ul>
           
+         
          
 
          
@@ -571,105 +572,315 @@
                   
         
             </div>
-
+          </div>
 
             <!--SEMAINE 13/07/20-->
 
-            <div id="tables1307" class="tables1307">
+            
+  <div id="tables1307" class="tables1307">
 
-              <div  class="revenu"> 
-                  
-                  <table class="table">
-                      <thead class="thead-light">
-                        <tr>
+    <div  class="revenu"> 
+        
+        <table class="table">
+            <thead class="thead-light">
+              <tr>
+                <th>JOUR</th>
+                <th>UBER</th>
+                <th>DELIVEROO</th>
+                <th>Dépenses </th>
+                <th>TOTAL JOUR </th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td class="revenuauto" id="13072001r"></td>
+                <td class="revenuauto" id="13072001deli"></td>
+                <td class="depauto" id="13072001d"></td>
+                <th id="Jour1S1307"> </th>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td class="revenuauto" id="13072002r" ></td>
+                <td class="revenuauto" id="13072002deli"></td>
+                <td  class="depauto" id="13072002d"></td>
+                <th id="Jour2S1307"> </th>
+
+
+               
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td class="revenuauto"  id="13072003r" ></td>
+                <td class="revenuauto"  id="13072003deli"></td>
+                <td  class="depauto" id="13072003d"></td>
+                <th id="Jour3S1307"> </th>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td class="revenuauto"  id="13072004r"></td>
+                <td class="revenuauto" id="13072004deli"></td>
+                <td  class="depauto" id="13072004d"></td>
+                <th id="Jour4S1307"> </th>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td class="revenuauto"  id="13072005r"></td>
+                <td class="revenuauto"  id="13072005deli"></td>
+                <td  class="depauto" id="13072005d"></td>
+                <th id="Jour5S1307"> </th>
+              </tr>
+
+              <tr>
+                <th scope="row">6</th>
+                <td class="revenuauto"  id="13072006r"></td>
+                <td  class="revenuauto"  id="13072006deli"></td>
+                <td  class="depauto" id="13072006d"></td>
+                <th id="Jour6S1307"> </th>
+              </tr>
+
+              
+              <tr>
+                <th scope="row">7</th>
+                <td class="revenuauto"  id="13072007r"></td>
+                <td class="revenuauto" id="13072007deli"></td>
+                <td  class="depauto" id="13072007d"></td>
+                <th id="Jour7S1307"> </th>
+
+              </tr>
+
+
+              <tr>
+                <th scope="row">total par application & total dépenses</th>
+                <td class="revenuauto"  id="ubrsemaine1307total"></td>
+                <td class="revenuauto"  id="delisemaine1307total"> </td>
+                <td  class="depauto" id="dep130720D"></td>
+                <th> </th>
+              </tr>
+              <tr>
+                <th scope="row">total </th>
+                <td  class="revenuauto" style="text-align: center;" id="130720Restltr"></td>
+                <td class="totaldepEtRevenu" id="130720Restltd"></td>
+                <td></td>
+              
+              </tr>
+
+
+
+             
+
+            </tbody>
+          </table>
+          
+
+    </div>
+            
+          
+          
+         <!--Semaine 20/07-->
+
+         <div id="tables2007" class="tables2007">
+
+          <div  class="revenu"> 
+              
+              <table class="table">
+                  <thead class="thead-light">
+                    <tr>
+                      <th>JOUR</th>
+                      <th>UBER</th>
+                      <th>DELIVEROO</th>
+                      <th>Dépenses </th>
+                      <th>TOTAL JOUR </th>
+                      
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td class="revenuauto" id="20072001r"></td>
+                      <td class="revenuauto" id="20072001deli"></td>
+                      <td class="depauto" id="20072001d"></td>
+                      <th id="Jour1S2007"> </th>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td class="revenuauto" id="20072002r" ></td>
+                      <td class="revenuauto" id="20072002deli"></td>
+                      <td  class="depauto" id="20072002d"></td>
+                      <th id="Jour2S2007"> </th>
+        
+        
+                     
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td class="revenuauto"  id="20072003r" ></td>
+                      <td class="revenuauto"  id="20072003deli"></td>
+                      <td  class="depauto" id="20072003d"></td>
+                      <th id="Jour3S2007"> </th>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td class="revenuauto"  id="20072004r"></td>
+                      <td class="revenuauto" id="20072004deli"></td>
+                      <td  class="depauto" id="20072004d"></td>
+                      <th id="Jour4S2007"> </th>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td class="revenuauto"  id="20072005r"></td>
+                      <td class="revenuauto"  id="20072005deli"></td>
+                      <td  class="depauto" id="20072005d"></td>
+                      <th id="Jour5S2007"> </th>
+                    </tr>
+        
+                    <tr>
+                      <th scope="row">6</th>
+                      <td class="revenuauto"  id="20072006r"></td>
+                      <td  class="revenuauto"  id="20072006deli"></td>
+                      <td  class="depauto" id="20072006d"></td>
+                      <th id="Jour6S2007"> </th>
+                    </tr>
+        
+                    
+                    <tr>
+                      <th scope="row">7</th>
+                      <td class="revenuauto"  id="20072007r"></td>
+                      <td class="revenuauto" id="20072007deli"></td>
+                      <td  class="depauto" id="20072007d"></td>
+                      <th id="Jour7S2007"> </th>
+        
+                    </tr>
+        
+        
+                    <tr>
+                      <th scope="row">total par application & total dépenses</th>
+                      <td class="revenuauto"  id="ubrsemaine2007total"></td>
+                      <td class="revenuauto"  id="delisemaine2007total"> </td>
+                      <td  class="depauto" id="dep200720D"></td>
+                      <th> </th>
+                    </tr>
+                    <tr>
+                      <th scope="row">total </th>
+                      <td  class="revenuauto" style="text-align: center;" id="200720Restltr"></td>
+                      <td class="totaldepEtRevenu" id="200720Restltd"></td>
+                      <td></td>
+                    
+                    </tr>
+        
+        
+        
+                   
+        
+                  </tbody>
+                </table>
+                
+        
+         
+
+</div>
+          <!--Semaine 27/07-->
+
+          <div id="tables2707" class="tables2707">
+
+            <div  class="revenu"> 
+                
+                <table class="table">
+                    <thead class="thead-light">
+                      <tr>
                         <th>JOUR</th>
                         <th>UBER</th>
                         <th>DELIVEROO</th>
                         <th>Dépenses </th>
                         <th>TOTAL JOUR </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th scope="row">1</th>
-                          <td class="revenuauto" id="13072001r"></td>
-                          <td class="revenuauto" id="13072001deli"></td>
-                          <td class="depauto" id="13072001d"></td>
-                        </tr>
-                        <tr>
-                          <th scope="row">2</th>
-                          <td class="revenuauto" id="13072002r" ></td>
-                          <td class="revenuauto" id="13072002deli"></td>
-                          <td  class="depauto" id="13072002d"></td>
-          
-          
-          
-                         
-                        </tr>
-                        <tr>
-                          <th scope="row">3</th>
-                          <td class="revenuauto"  id="13072003r" ></td>
-                          <td class="revenuauto"  id="13072003deli"></td>
-                          <td  class="depauto" id="13072003d"></td>
-          
-                        </tr>
-                        <tr>
-                          <th scope="row">4</th>
-                          <td class="revenuauto"  id="13072004r"></td>
-                          <td class="revenuauto" id="13072004deli"></td>
-                          <td  class="depauto" id="13072004d"></td>
-          
-                        </tr>
-                        <tr>
-                          <th scope="row">5</th>
-                          <td class="revenuauto"  id="13072005r"></td>
-                          <td class="revenuauto"  id="13072005deli"></td>
-                          <td  class="depauto" id="13072005d"></td>
-          
-                        </tr>
-          
-                        <tr>
-                          <th scope="row">6</th>
-                          <td class="revenuauto"  id="13072006r"></td>
-                          <td  class="revenuauto"  id="13072006deli"></td>
-                          <td  class="depauto" id="13072006d"></td>
-          
-                        </tr>
-          
                         
-                        <tr>
-                          <th scope="row">7</th>
-                          <td class="revenuauto"  id="13072007r"></td>
-                          <td class="revenuauto" id="13072007deli"></td>
-                          <td  class="depauto" id="13072007d"></td>
-          
-                        </tr>
-          
-          
-                        <tr>
-                          <th scope="row">total par application & total dépenses</th>
-                          <td class="revenuauto"  id="ubrsemaine01total"></td>
-                          <td class="revenuauto"  id="delisemaine01total"> </td>
-                          <td  class="depauto" id="dep130720D"></td>
-          
-                        </tr>
-                        <tr>
-                          <th scope="row">total </th>
-                          <td  class="revenuauto" style="text-align: center;" id="130720Restltr"></td>
-                          <td class="totaldepEtRevenu" id="130720Restltd"></td>
-                          <td></td>
-                        
-                        </tr>
-          
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td class="revenuauto" id="27072701r"></td>
+                        <td class="revenuauto" id="27072701deli"></td>
+                        <td class="depauto" id="27072701d"></td>
+                        <th id="Jour1S2707"> </th>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td class="revenuauto" id="27072702r" ></td>
+                        <td class="revenuauto" id="27072702deli"></td>
+                        <td  class="depauto" id="27072702d"></td>
+                        <th id="Jour2S2707"> </th>
           
           
                        
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td class="revenuauto"  id="27072703r" ></td>
+                        <td class="revenuauto"  id="27072703deli"></td>
+                        <td  class="depauto" id="27072703d"></td>
+                        <th id="Jour3S2707"> </th>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td class="revenuauto"  id="27072704r"></td>
+                        <td class="revenuauto" id="27072704deli"></td>
+                        <td  class="depauto" id="27072704d"></td>
+                        <th id="Jour4S2707"> </th>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td class="revenuauto"  id="27072705r"></td>
+                        <td class="revenuauto"  id="27072705deli"></td>
+                        <td  class="depauto" id="27072705d"></td>
+                        <th id="Jour5S2707"> </th>
+                      </tr>
           
-                      </tbody>
-                    </table>
-                    
+                      <tr>
+                        <th scope="row">6</th>
+                        <td class="revenuauto"  id="27072706r"></td>
+                        <td  class="revenuauto"  id="27072706deli"></td>
+                        <td  class="depauto" id="27072706d"></td>
+                        <th id="Jour6S2707"> </th>
+                      </tr>
           
-              </div>
+                      
+                      <tr>
+                        <th scope="row">7</th>
+                        <td class="revenuauto"  id="27072707r"></td>
+                        <td class="revenuauto" id="27072707deli"></td>
+                        <td  class="depauto" id="27072707d"></td>
+                        <th id="Jour7S2707"> </th>
+          
+                      </tr>
+          
+          
+                      <tr>
+                        <th scope="row">total par application & total dépenses</th>
+                        <td class="revenuauto"  id="ubrsemaine2707total"></td>
+                        <td class="revenuauto"  id="delisemaine2707total"> </td>
+                        <td  class="depauto" id="dep270727D"></td>
+                        <th> </th>
+                      </tr>
+                      <tr>
+                        <th scope="row">total </th>
+                        <td  class="revenuauto" style="text-align: center;" id="270727Restltr"></td>
+                        <td class="totaldepEtRevenu" id="270727Restltd"></td>
+                        <td></td>
+                      
+                      </tr>
+          
+          
+          
+                     
+          
+                    </tbody>
+                  </table>
+                  
+                  </div>
+          
+            </div>
 
     
 

@@ -203,7 +203,7 @@ afficheSemaine12206()
 // Tout les revenu additioner depuis le 22/06/2020
 
 
-totalActivite = reslatTotal2206
+
 
 
 
@@ -298,7 +298,6 @@ resulatdeli2906=''
 
 // Semaine 06/07/20 
 
-
 rejour10607 = document.getElementById("06072001r")
 rejour20607 = document.getElementById("06072002r")
 rejour30607 = document.getElementById("06072003r")
@@ -324,20 +323,21 @@ rtotal0607=document.getElementById("060720Restltr")
 
 
 afficheR1ubr0607= 15.56
-afficheR2ubr0607= 0
-afficheR3ubr0607= 0
-afficheR4ubr0607= 0
-afficheR5ubr0607= 0
-afficheR6ubr0607= 0
-afficheR7ubr0607= 0 
+afficheR2ubr0607= 40.47
+afficheR3ubr0607= 5.21
+afficheR4ubr0607= 58.62
+afficheR5ubr0607= 51.99
+afficheR6ubr0607= 24.95
+afficheR7ubr0607= 39.78
 
 afficheR1dev0607= 23.97
-afficheR2dev0607= 0
-afficheR3dev0607= 0
-afficheR4dev0607= 0
-afficheR5dev0607= 0
+afficheR2dev0607= 30.80
+afficheR3dev0607= 12.54
+afficheR4dev0607= 41.10
+afficheR5dev0607= 30.40
 afficheR6dev0607= 0
-afficheR7dev0607= 0 
+afficheR7dev0607= 5.50
+
 
 
 afficheDepences010607 = 0
@@ -459,8 +459,8 @@ function afficheSemaine10607 ()
 
 
         rtotal0607.innerHTML=reslatTotal0607
-        resulatdeli0607.innerHTML=resulatdeli0607
-        reslatUBR0607.innerHTML=resulatatUBR2906
+        resulatdeli0607.innerHTML=rsemaine01deli0607
+        reslatUBR0607.innerHTML=rsemaine01ubr0607
     
 
         document.getElementById("dep060720D").innerHTML=TotalDepences0607
@@ -473,6 +473,193 @@ function afficheSemaine10607 ()
 
 
 afficheSemaine10607()
+
+
+
+
+
+// Semaine 13/07
+
+rejour11307 = document.getElementById("13072001r")
+rejour21307 = document.getElementById("13072002r")
+rejour31307 = document.getElementById("13072003r")
+rejour41307 = document.getElementById("13072004r")
+rejour51307 = document.getElementById("13072005r")
+rejour61307 = document.getElementById("13072006r")
+rejour71307 = document.getElementById("13072007r")
+rsemaine01ubr1307=document.getElementById("ubrsemaine01total")
+
+rejour1d1307 = document.getElementById("13072001deli")
+rejour2d1307 = document.getElementById("13072002deli")
+rejour3d1307 = document.getElementById("13072003deli")
+rejour4d1307 = document.getElementById("13072004deli")
+rejour5d1307 = document.getElementById("13072005deli")
+rejour6d1307 = document.getElementById("13072006deli")
+rejour7d1307 = document.getElementById("13072007deli")
+rsemaine01deli1307=document.getElementById("delisemaine01total")
+
+
+
+rtotal1307=document.getElementById("130720Restltr")
+
+
+
+afficheR1ubr1307= 58.40
+afficheR2ubr1307= 0.00
+afficheR3ubr1307= 0.00
+afficheR4ubr1307= 0.00
+afficheR5ubr1307= 0.00
+afficheR6ubr1307= 0.00
+afficheR7ubr1307= 0.00
+
+afficheR1dev1307= 35.10
+afficheR2dev1307= 0.00
+afficheR3dev1307= 0.00
+afficheR4dev1307= 0.00
+afficheR5dev1307= 0.00
+afficheR6dev1307= 0.00
+afficheR7dev1307= 0.00
+
+
+afficheDepences011307 = 0
+afficheDepences021307 = 0
+afficheDepences031307 = 0
+afficheDepences041307 = 0
+afficheDepences051307 = 0
+afficheDepences061307 = 0
+afficheDepences071307 = 0
+
+
+TotalDepences1307 = afficheDepences011307+afficheDepences021307+afficheDepences031307+afficheDepences041307+afficheDepences051307+afficheDepences061307+afficheDepences071307
+
+
+reslatTotal1307= ''
+resulatatUBR1307=''
+resulatdeli1307=''
+
+
+
+
+afficheTotalSemaine1307=reslatTotal1307
+
+
+djour11307 = document.getElementById("13072001d")
+djour21307 = document.getElementById("13072002d")
+djour31307 = document.getElementById("13072003d")
+djour41307 = document.getElementById("13072004d")
+djour51307 = document.getElementById("13072005d")
+djour61307 = document.getElementById("13072006d")
+djour71307 = document.getElementById("13072007d")
+dtotal1307=document.getElementById("130720Restltd")
+
+
+
+
+function calculeSemaine01deli1307 ()
+{
+    resulatdeli1307=afficheR1dev1307+afficheR2dev1307+afficheR3dev1307+afficheR4dev1307+afficheR5dev1307+afficheR6dev1307+afficheR7dev1307
+    
+}
+
+function calculeSemaine01UBR1307 ()
+{
+    reslatUBR1307= afficheR1ubr1307+afficheR2ubr1307+afficheR3ubr1307+afficheR4ubr1307+afficheR5ubr1307+afficheR6ubr1307+afficheR7ubr1307
+
+}
+
+
+
+function calculeSemaine011307 () 
+
+
+{
+
+    
+    
+    
+    reslatTotal1307=reslatUBR1307+resulatdeli1307
+    depensesetrevenu130720 = resulatdeli1307 + reslatUBR1307 - TotalDepences1307
+    
+
+}
+
+
+
+
+calculeSemaine01UBR1307()
+calculeSemaine01deli1307 ()
+calculeSemaine011307 ()
+
+
+
+
+
+function afficheSemaine11307 () 
+
+    {
+
+    rejour11307.innerHTML=afficheR1ubr1307
+    rejour21307.innerHTML=afficheR2ubr1307
+    rejour31307.innerHTML=afficheR3ubr1307
+    rejour41307.innerHTML=afficheR4ubr1307
+    rejour51307.innerHTML=afficheR5ubr1307
+    rejour61307.innerHTML=afficheR6ubr1307
+    rejour71307.innerHTML=afficheR7ubr1307
+
+
+    rejour1d1307.innerHTML=afficheR1dev1307
+    rejour2d1307.innerHTML=afficheR2dev1307
+    rejour3d1307.innerHTML=afficheR3dev1307
+    rejour4d1307.innerHTML=afficheR4dev1307
+    rejour5d1307.innerHTML=afficheR5dev1307
+    rejour6d1307.innerHTML=afficheR6dev1307
+    rejour7d1307.innerHTML=afficheR7dev1307
+
+
+
+
+
+
+
+
+
+    djour11307.innerHTML=afficheDepences011307
+    djour21307.innerHTML=afficheDepences021307
+    djour31307.innerHTML=afficheDepences031307
+    djour41307.innerHTML=afficheDepences041307   
+    djour51307.innerHTML=afficheDepences051307
+    djour61307.innerHTML=afficheDepences061307
+    djour71307.innerHTML=afficheDepences071307
+    TotalDepences1307.innerHTML=dtotal1307
+
+
+
+
+
+
+
+
+        rtotal1307.innerHTML=reslatTotal1307
+        resulatdeli1307.innerHTML=rsemaine01deli1307
+        reslatUBR1307.innerHTML=rsemaine01ubr1307
+    
+
+        document.getElementById("dep130720D").innerHTML=TotalDepences1307
+      
+        document.getElementById("130720Restltd").innerHTML=depensesetrevenu130720
+        document.getElementById("delisemaine1307total").innerHTML=resulatdeli1307
+        document.getElementById("ubrsemaine1307total").innerHTML=reslatUBR1307
+
+    }
+
+
+
+
+afficheSemaine11307()
+
+
+
+
 
 
 // Resulat part jour 
@@ -501,7 +688,13 @@ jour50607 = document.getElementById("Jour5S0607")
 jour60607 = document.getElementById("Jour6S0607")
 jour70607 = document.getElementById("Jour7S0607")
 
-
+jour11307 = document.getElementById("Jour1S1307")
+jour21307 = document.getElementById("Jour2S1307")
+jour31307 = document.getElementById("Jour3S1307")
+jour41307 = document.getElementById("Jour4S1307")
+jour51307 = document.getElementById("Jour5S1307")
+jour61307 = document.getElementById("Jour6S1307")
+jour71307 = document.getElementById("Jour7S1307")
 
 
 
@@ -537,7 +730,15 @@ jour50607.innerHTML=afficheR5dev0607+afficheR5ubr0607
 jour60607.innerHTML=afficheR6dev0607+afficheR6ubr0607
 jour70607.innerHTML=afficheR7dev0607+afficheR7ubr0607
 
+// Semaine 13/07
 
+jour11307.innerHTML=afficheR1dev1307+afficheR1ubr1307
+jour21307.innerHTML=afficheR2dev1307+afficheR2ubr1307
+jour31307.innerHTML=afficheR3dev1307+afficheR3ubr1307
+jour41307.innerHTML=afficheR4dev1307+afficheR4ubr1307
+jour51307.innerHTML=afficheR5dev1307+afficheR5ubr1307
+jour61307.innerHTML=afficheR6dev1307+afficheR6ubr1307
+jour71307.innerHTML=afficheR7dev1307+afficheR7ubr1307
 
 
 
@@ -679,180 +880,6 @@ afficheSemaine12906()
 // Semaine 06/07/20 
 
 
-rejour10607 = document.getElementById("06072001r")
-rejour20607 = document.getElementById("06072002r")
-rejour30607 = document.getElementById("06072003r")
-rejour40607 = document.getElementById("06072004r")
-rejour50607 = document.getElementById("06072005r")
-rejour60607 = document.getElementById("06072006r")
-rejour70607 = document.getElementById("06072007r")
-rsemaine01ubr0607=document.getElementById("ubrsemaine01total")
-
-rejour1d0607 = document.getElementById("06072001deli")
-rejour2d0607 = document.getElementById("06072002deli")
-rejour3d0607 = document.getElementById("06072003deli")
-rejour4d0607 = document.getElementById("06072004deli")
-rejour5d0607 = document.getElementById("06072005deli")
-rejour6d0607 = document.getElementById("06072006deli")
-rejour7d0607 = document.getElementById("06072007deli")
-rsemaine01deli0607=document.getElementById("delisemaine01total")
-
-
-
-rtotal0607=document.getElementById("060720Restltr")
-
-
-
-afficheR1ubr0607= 15.56
-afficheR2ubr0607= 0
-afficheR3ubr0607= 0
-afficheR4ubr0607= 0
-afficheR5ubr0607= 0
-afficheR6ubr0607= 0
-afficheR7ubr0607= 0 
-
-afficheR1dev0607= 23.97
-afficheR2dev0607= 0
-afficheR3dev0607= 0
-afficheR4dev0607= 0
-afficheR5dev0607= 0
-afficheR6dev0607= 0
-afficheR7dev0607= 0 
-
-
-afficheDepences010607 = 0
-afficheDepences020607 = 0
-afficheDepences030607 = 0
-afficheDepences040607 = 0
-afficheDepences050607 = 0
-afficheDepences060607 = 0
-afficheDepences070607 = 0
-
-
-TotalDepences0607 = afficheDepences010607+afficheDepences020607+afficheDepences030607+afficheDepences040607+afficheDepences050607+afficheDepences060607+afficheDepences070607
-
-
-reslatTotal0607= ''
-resulatatUBR0607=''
-resulatdeli0607=''
-
-
-
-
-afficheTotalSemaine0607=reslatTotal0607
-
-
-djour10607 = document.getElementById("06072001d")
-djour20607 = document.getElementById("06072002d")
-djour30607 = document.getElementById("06072003d")
-djour40607 = document.getElementById("06072004d")
-djour50607 = document.getElementById("06072005d")
-djour60607 = document.getElementById("06072006d")
-djour70607 = document.getElementById("06072007d")
-dtotal0607=document.getElementById("060720Restltd")
-
-
-
-
-function calculeSemaine01deli0607 ()
-{
-    resulatdeli0607=afficheR1dev0607+afficheR2dev0607+afficheR3dev0607+afficheR4dev0607+afficheR5dev0607+afficheR6dev0607+afficheR7dev0607
-    
-}
-
-function calculeSemaine01UBR0607 ()
-{
-    reslatUBR0607= afficheR1ubr0607+afficheR2ubr0607+afficheR3ubr0607+afficheR4ubr0607+afficheR5ubr0607+afficheR6ubr0607+afficheR7ubr0607
-
-}
-
-
-
-function calculeSemaine010607 () 
-
-
-{
-
-    
-    
-    
-    reslatTotal0607=reslatUBR0607+resulatdeli0607
-    depensesetrevenu060720 = resulatdeli0607 + reslatUBR0607 - TotalDepences0607
-    
-
-}
-
-
-
-
-calculeSemaine01UBR0607()
-calculeSemaine01deli0607 ()
-calculeSemaine010607 ()
-
-
-
-
-
-function afficheSemaine10607 () 
-
-    {
-
-    rejour10607.innerHTML=afficheR1ubr0607
-    rejour20607.innerHTML=afficheR2ubr0607
-    rejour30607.innerHTML=afficheR3ubr0607
-    rejour40607.innerHTML=afficheR4ubr0607
-    rejour50607.innerHTML=afficheR5ubr0607
-    rejour60607.innerHTML=afficheR6ubr0607
-    rejour70607.innerHTML=afficheR7ubr0607
-
-
-    rejour1d0607.innerHTML=afficheR1dev0607
-    rejour2d0607.innerHTML=afficheR2dev0607
-    rejour3d0607.innerHTML=afficheR3dev0607
-    rejour4d0607.innerHTML=afficheR4dev0607
-    rejour5d0607.innerHTML=afficheR5dev0607
-    rejour6d0607.innerHTML=afficheR6dev0607
-    rejour7d0607.innerHTML=afficheR7dev0607
-
-
-
-
-
-
-
-
-
-    djour10607.innerHTML=afficheDepences010607
-    djour20607.innerHTML=afficheDepences020607
-    djour30607.innerHTML=afficheDepences030607
-    djour40607.innerHTML=afficheDepences040607   
-    djour50607.innerHTML=afficheDepences050607
-    djour60607.innerHTML=afficheDepences060607
-    djour70607.innerHTML=afficheDepences070607
-    TotalDepences0607.innerHTML=dtotal0607
-
-
-
-
-
-
-
-
-        rtotal0607.innerHTML=reslatTotal0607
-        resulatdeli0607.innerHTML=rsemaine01deli0607
-        reslatUBR0607.innerHTML=rsemaine01ubr0607
-    
-
-        document.getElementById("dep060720D").innerHTML=TotalDepences0607
-      
-        document.getElementById("060720Restltd").innerHTML=depensesetrevenu060720
-
-     }
-
-
-
-
-afficheSemaine10607()
 
 
 
