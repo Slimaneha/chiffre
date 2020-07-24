@@ -835,6 +835,15 @@ function colorAutoTest ()
      rejour7d1307.style.backgroundColor="#ED7F10"
  }
 
+jour12007 = document.getElementById("Jour1S2007")
+jour22007 = document.getElementById("Jour2S2007")
+jour32007 = document.getElementById("Jour3S2007")
+jour42007 = document.getElementById("Jour4S2007")
+jour52007 = document.getElementById("Jour5S2007")
+jour62007 = document.getElementById("Jour6S2007")
+jour72007 = document.getElementById("Jour7S2007")
+
+
  jour12007.innerHTML=afficheR1dev2007+afficheR1ubr2007
 jour22007.innerHTML=afficheR2dev2007+afficheR2ubr2007
 jour32007.innerHTML=afficheR3dev2007+afficheR3ubr2007
@@ -846,13 +855,6 @@ jour72007.innerHTML=afficheR7dev2007+afficheR7ubr2007
 
 
 
-jour12007 = document.getElementById("Jour1S2007")
-jour22007 = document.getElementById("Jour2S2007")
-jour32007 = document.getElementById("Jour3S2007")
-jour42007 = document.getElementById("Jour4S2007")
-jour52007 = document.getElementById("Jour5S2007")
-jour62007 = document.getElementById("Jour6S2007")
-jour72007 = document.getElementById("Jour7S2007")
 
 
 
@@ -1066,6 +1068,9 @@ jour72007 = document.getElementById("Jour7S2007")
      rejour7d2007.style.backgroundColor="#ED7F10"
  }
 
+
+
+ 
 
 
 

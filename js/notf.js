@@ -1,154 +1,137 @@
-rejour12007 = document.getElementById("20072001r")
-rejour22007 = document.getElementById("20072002r")
-rejour32007 = document.getElementById("20072003r")
-rejour42007 = document.getElementById("20072004r")
-rejour52007 = document.getElementById("20072005r")
-rejour62007 = document.getElementById("20072006r")
-rejour72007 = document.getElementById("20072007r")
-rsemaine01ubr2007=document.getElementById("ubrsemaine01total")
+rejour12707 = document.getElementById("27072001r")
+rejour22707 = document.getElementById("27072002r")
+rejour32707 = document.getElementById("27072003r")
+rejour42707 = document.getElementById("27072004r")
+rejour52707 = document.getElementById("27072005r")
+rejour62707 = document.getElementById("27072006r")
+rejour72707 = document.getElementById("27072707r")
+rsemaine01ubr2707=document.getElementById("ubrsemaine01total")
 
-rejour1d2007 = document.getElementById("20072001deli")
-rejour2d2007 = document.getElementById("20072002deli")
-rejour3d2007 = document.getElementById("20072003deli")
-rejour4d2007 = document.getElementById("20072004deli")
-rejour5d2007 = document.getElementById("20072005deli")
-rejour6d2007 = document.getElementById("20072006deli")
-rejour7d2007 = document.getElementById("20072007deli")
-rsemaine01deli2007=document.getElementById("delisemaine01total")
-
-
-
-rtotal2007=document.getElementById("200720Restltr")
+rejour1d2707 = document.getElementById("27072001deli")
+rejour2d2707 = document.getElementById("27072002deli")
+rejour3d2707 = document.getElementById("27072003deli")
+rejour4d2707 = document.getElementById("27072004deli")
+rejour5d2707 = document.getElementById("27072005deli")
+rejour6d2707 = document.getElementById("27072006deli")
+rejour7d2707 = document.getElementById("27072707deli")
+rsemaine01deli2707=document.getElementById("delisemaine01total")
 
 
 
-afficheR1ubr2007= 58.40
-afficheR2ubr2007= 0.00
-afficheR3ubr2007= 0.00
-afficheR4ubr2007= 0.00
-afficheR5ubr2007= 0.00
-afficheR6ubr2007= 0.00
-afficheR7ubr2007= 0.00
-
-afficheR1dev2007= 35.10
-afficheR2dev2007= 0.00
-afficheR3dev2007= 0.00
-afficheR4dev2007= 0.00
-afficheR5dev2007= 0.00
-afficheR6dev2007= 0.00
-afficheR7dev2007= 0.00
-
-
-afficheDepences012007 = 0
-afficheDepences022007 = 0
-afficheDepences032007 = 0
-afficheDepences042007 = 0
-afficheDepences052007 = 0
-afficheDepences062007 = 0
-afficheDepences072007 = 0
-
-
-TotalDepences2007 = afficheDepences012007+afficheDepences022007+afficheDepences032007+afficheDepences042007+afficheDepences052007+afficheDepences062007+afficheDepences072007
-
-
-reslatTotal2007= ''
-resulatatUBR2007=''
-resulatdeli2007=''
+rtotal2707=document.getElementById("270720Restltr")
 
 
 
+afficheR1ubr2707= 0.00
+afficheR2ubr2707= 0.00
+afficheR3ubr2707= 0.00
+afficheR4ubr2707= 0.00
+afficheR5ubr2707= 0.00
+afficheR6ubr2707= 0.00
+afficheR7ubr2707= 0.00
 
-afficheTotalSemaine2007=reslatTotal2007
+afficheR1dev2707= 0.00
+afficheR2dev2707= 0.00
+afficheR3dev2707= 0.00
+afficheR4dev2707= 0.00
+afficheR5dev2707= 0.00
+afficheR6dev2707= 0.00
+afficheR7dev2707= 0.00
 
 
-djour12007 = document.getElementById("20072001d")
-djour22007 = document.getElementById("20072002d")
-djour32007 = document.getElementById("20072003d")
-djour42007 = document.getElementById("20072004d")
-djour52007 = document.getElementById("20072005d")
-djour62007 = document.getElementById("20072006d")
-djour72007 = document.getElementById("20072007d")
-dtotal2007=document.getElementById("200720Restltd")
+afficheDepences012707 = 0
+afficheDepences022707 = 0
+afficheDepences032707 = 0
+afficheDepences042707 = 0
+afficheDepences052707 = 0
+afficheDepences062707 = 0
+afficheDepences072707 = 0
+
+
+TotalDepences2707 = afficheDepences012707+afficheDepences022707+afficheDepences032707+afficheDepences042707+afficheDepences052707+afficheDepences062707+afficheDepences072707
+
+
+reslatTotal2707= ''
+resulatatUBR2707=''
+resulatdeli2707=''
 
 
 
 
-function calculeSemaine01deli2007 ()
+afficheTotalSemaine2707=reslatTotal2707
+
+
+djour12707 = document.getElementById("27072001d")
+djour22707 = document.getElementById("27072002d")
+djour32707 = document.getElementById("27072003d")
+djour42707 = document.getElementById("27072004d")
+djour52707 = document.getElementById("27072005d")
+djour62707 = document.getElementById("27072006d")
+djour72707 = document.getElementById("27072707d")
+dtotal2707=document.getElementById("270720Restltd")
+
+
+
+
+function calculeSemaine01deli2707 ()
 {
-    resulatdeli2007=afficheR1dev2007+afficheR2dev2007+afficheR3dev2007+afficheR4dev2007+afficheR5dev2007+afficheR6dev2007+afficheR7dev2007
+    resulatdeli2707=afficheR1dev2707+afficheR2dev2707+afficheR3dev2707+afficheR4dev2707+afficheR5dev2707+afficheR6dev2707+afficheR7dev2707
     
 }
 
-function calculeSemaine01UBR2007 ()
+function calculeSemaine01UBR2707 ()
 {
-    reslatUBR2007= afficheR1ubr2007+afficheR2ubr2007+afficheR3ubr2007+afficheR4ubr2007+afficheR5ubr2007+afficheR6ubr2007+afficheR7ubr2007
-
-}
-
-
-
-function calculeSemaine012007 () 
-
-
-{
-
-    
-    
-    
-    reslatTotal2007=reslatUBR2007+resulatdeli2007
-    depensesetrevenu200720 = resulatdeli2007 + reslatUBR2007 - TotalDepences2007
-    
+    reslatUBR2707= afficheR1ubr2707+afficheR2ubr2707+afficheR3ubr2707+afficheR4ubr2707+afficheR5ubr2707+afficheR6ubr2707+afficheR7ubr2707
 
 }
 
 
 
-
-calculeSemaine01UBR2007()
-calculeSemaine01deli2007 ()
-calculeSemaine012007 ()
+function calculeSemaine012707 () 
 
 
+{
+
+    
+    
+    
+    reslatTotal2707=reslatUBR2707+resulatdeli2707
+    depensesetrevenu270720 = resulatdeli2707 + reslatUBR2707 - TotalDepences2707
+    
+
+}
 
 
 
-function afficheSemaine12007 () 
+
+calculeSemaine01UBR2707()
+calculeSemaine01deli2707 ()
+calculeSemaine012707 ()
+
+
+
+
+
+function afficheSemaine12707 () 
 
     {
 
-    rejour12007.innerHTML=afficheR1ubr2007
-    rejour22007.innerHTML=afficheR2ubr2007
-    rejour32007.innerHTML=afficheR3ubr2007
-    rejour42007.innerHTML=afficheR4ubr2007
-    rejour52007.innerHTML=afficheR5ubr2007
-    rejour62007.innerHTML=afficheR6ubr2007
-    rejour72007.innerHTML=afficheR7ubr2007
+    rejour12707.innerHTML=afficheR1ubr2707
+    rejour22707.innerHTML=afficheR2ubr2707
+    rejour32707.innerHTML=afficheR3ubr2707
+    rejour42707.innerHTML=afficheR4ubr2707
+    rejour52707.innerHTML=afficheR5ubr2707
+    rejour62707.innerHTML=afficheR6ubr2707
+    rejour72707.innerHTML=afficheR7ubr2707
 
 
-    rejour1d2007.innerHTML=afficheR1dev2007
-    rejour2d2007.innerHTML=afficheR2dev2007
-    rejour3d2007.innerHTML=afficheR3dev2007
-    rejour4d2007.innerHTML=afficheR4dev2007
-    rejour5d2007.innerHTML=afficheR5dev2007
-    rejour6d2007.innerHTML=afficheR6dev2007
-    rejour7d2007.innerHTML=afficheR7dev2007
-
-
-
-
-
-
-
-
-
-    djour12007.innerHTML=afficheDepences012007
-    djour22007.innerHTML=afficheDepences022007
-    djour32007.innerHTML=afficheDepences032007
-    djour42007.innerHTML=afficheDepences042007   
-    djour52007.innerHTML=afficheDepences052007
-    djour62007.innerHTML=afficheDepences062007
-    djour72007.innerHTML=afficheDepences072007
-    TotalDepences2007.innerHTML=dtotal2007
+    rejour1d2707.innerHTML=afficheR1dev2707
+    rejour2d2707.innerHTML=afficheR2dev2707
+    rejour3d2707.innerHTML=afficheR3dev2707
+    rejour4d2707.innerHTML=afficheR4dev2707
+    rejour5d2707.innerHTML=afficheR5dev2707
+    rejour6d2707.innerHTML=afficheR6dev2707
+    rejour7d2707.innerHTML=afficheR7dev2707
 
 
 
@@ -157,20 +140,37 @@ function afficheSemaine12007 ()
 
 
 
-        rtotal2007.innerHTML=reslatTotal2007
-        resulatdeli2007.innerHTML=rsemaine01deli2007
-        reslatUBR2007.innerHTML=rsemaine01ubr2007
+
+    djour12707.innerHTML=afficheDepences012707
+    djour22707.innerHTML=afficheDepences022707
+    djour32707.innerHTML=afficheDepences032707
+    djour42707.innerHTML=afficheDepences042707   
+    djour52707.innerHTML=afficheDepences052707
+    djour62707.innerHTML=afficheDepences062707
+    djour72707.innerHTML=afficheDepences072707
+    TotalDepences2707.innerHTML=dtotal2707
+
+
+
+
+
+
+
+
+        rtotal2707.innerHTML=reslatTotal2707
+        resulatdeli2707.innerHTML=rsemaine01deli2707
+        reslatUBR2707.innerHTML=rsemaine01ubr2707
     
 
-        document.getElementById("dep200720D").innerHTML=TotalDepences2007
+        document.getElementById("dep270720D").innerHTML=TotalDepences2707
       
-        document.getElementById("200720Restltd").innerHTML=depensesetrevenu200720
-        document.getElementById("delisemaine2007total").innerHTML=resulatdeli2007
-        document.getElementById("ubrsemaine2007total").innerHTML=reslatUBR2007
+        document.getElementById("270720Restltd").innerHTML=depensesetrevenu270720
+        document.getElementById("delisemaine2707total").innerHTML=resulatdeli2707
+        document.getElementById("ubrsemaine2707total").innerHTML=reslatUBR2707
 
     }
 
 
 
 
-afficheSemaine12007()
+afficheSemaine12707()
