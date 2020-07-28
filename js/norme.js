@@ -42,6 +42,9 @@ var Janvier = document.getElementById("janvier")
 
 
 
+    afichemoi = document.getElementById("moiPrincipal")
+    afficheanne = document.getElementById("")
+
 
 function cachecache2206 ()
 {
@@ -145,6 +148,7 @@ function cachecache2707 ()
 
 
 
+
     
 
     
@@ -154,6 +158,7 @@ function cachecache2707 ()
 moiP = document.getElementById("moiPrincipal")
 sejuin = document.getElementById("semainejuin")
 sejuillet = document.getElementById("semaineJuillet")
+btnRetour=document.getElementById("retour")
 
 
 moi = 0
@@ -164,6 +169,7 @@ function recup01 ()
 
 {
     moiP.style.display="none"
+    btnRetour.style.display="block"
     
 }
 
@@ -171,6 +177,8 @@ function recup02 ()
 
 {
     moiP.style.display="none"
+    btnRetour.style.display="block"
+
     
 }
 
@@ -178,6 +186,8 @@ function recup03 ()
 
 {
     moiP.style.display="none"
+    btnRetour.style.display="block"
+
     
 }
 
@@ -185,12 +195,16 @@ function recup04 ()
 
 {
     moiP.style.display="none"
+    btnRetour.style.display="block"
+
     
 }
 function recup05 () 
 
 {
     moiP.style.display="none"
+    btnRetour.style.display="block"
+
     
 }
 
@@ -200,7 +214,8 @@ function recup06 ()
 {
     moiP.style.display="none"
     sejuin.style.display="block"
-    
+    btnRetour.style.display="block"
+
 }
 
 function recup07 () 
@@ -208,6 +223,8 @@ function recup07 ()
 {
     moiP.style.display="none"
     sejuillet.style.display="block"
+    btnRetour.style.display="block"
+
     
 
 
@@ -219,6 +236,8 @@ function recup08 ()
 
 {
     moiP.style.display="none"
+    btnRetour.style.display="block"
+
     
 }
 
@@ -226,6 +245,8 @@ function recup09 ()
 
 {
     moiP.style.display="none"
+    btnRetour.style.display="block"
+
     
 }
 
@@ -233,13 +254,16 @@ function recup10 ()
 
 {
     moiP.style.display="none"
-    
+    btnRetour.style.display="block"
+
 }
 
 function recup11 () 
 
 {
     moiP.style.display="none"
+    btnRetour.style.display="block"
+
     
 }
 
@@ -269,7 +293,14 @@ function back ()
         document.getElementById("tables2206").style.display="none"
         document.getElementById("tables0607").style.display="none"
         document.getElementById("tables1307").style.display="none"
+        document.getElementById("tables2007").style.display="none"
         document.getElementById("tables2707").style.display="none"
+
+
+
+
+        btnRetour.style.display="none"
+
 
 
 
