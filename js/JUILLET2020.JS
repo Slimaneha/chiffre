@@ -403,10 +403,10 @@ rtotal2007=document.getElementById("200720Restltr")
 afficheR1ubr2007= 21.38
 afficheR2ubr2007= 0.00
 afficheR3ubr2007= 0.00
-afficheR4ubr2007= 23.70
-afficheR5ubr2007= 0.00
-afficheR6ubr2007= 0.00
-afficheR7ubr2007= 0.00
+afficheR4ubr2007= 0.00
+afficheR5ubr2007= 23.70
+afficheR6ubr2007= 53.40
+afficheR7ubr2007= 62.00
 
 afficheR1dev2007= 7.90
 afficheR2dev2007= 0.00
@@ -587,7 +587,7 @@ rtotal2707=document.getElementById("270720Restltr")
 
 
 
-afficheR1ubr2707= 0.00
+afficheR1ubr2707= 62.00
 afficheR2ubr2707= 0.00
 afficheR3ubr2707= 0.00
 afficheR4ubr2707= 0.00
@@ -595,7 +595,7 @@ afficheR5ubr2707= 0.00
 afficheR6ubr2707= 0.00
 afficheR7ubr2707= 0.00
 
-afficheR1dev2707= 0.00
+afficheR1dev2707= 9,70
 afficheR2dev2707= 0.00
 afficheR3dev2707= 0.00
 afficheR4dev2707= 0.00
