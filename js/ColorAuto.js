@@ -1287,6 +1287,852 @@ jour72007.innerHTML=afficheR7dev2007+afficheR7ubr2007
      rejour7d2707.style.backgroundColor="#ED7F10"
  }
 
+ // 0308 
+
+ // Jour 1 UBR 
+if (afficheR1ubr0308>50) 
+{
+        rejour10308.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR1ubr0308<50)
+{
+    rejour10308.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR1ubr0308 === 0) 
+{
+    rejour10308.style.backgroundColor="#b82010"
+}
+
+
+// JOUR 2
+
+if (afficheR2ubr0308>50) 
+{
+        rejour20308.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR2ubr0308<50)
+{
+    rejour20308.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR2ubr0308 === 0) 
+{
+    rejour20308.style.backgroundColor="#b82010"
+}
+
+// JOUR 3 
+
+
+if (afficheR3ubr0308>50) 
+{
+        rejour30308.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR3ubr0308<50)
+{
+    rejour30308.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR3ubr0308 === 0) 
+{
+    rejour30308.style.backgroundColor="#b82010"
+}
+
+// JOUR 4 
+
+if (afficheR4ubr0308>50) 
+{
+        rejour40308.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR4ubr0308<50)
+{
+    rejour40308.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR4ubr0308 === 0) 
+{
+    rejour40308.style.backgroundColor="#b82010"
+}
+
+
+// JOUR 5
+
+if (afficheR5ubr0308>50) 
+{
+        rejour50308.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR5ubr0308<50)
+{
+    rejour50308.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR5ubr0308 === 0) 
+{
+    rejour50308.style.backgroundColor="#b82010"
+}
+
+// JOUR 6 
+
+if (afficheR6ubr0308>50) 
+{
+        rejour60308.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR6ubr0308<50)
+{
+    rejour60308.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR6ubr0308 === 0) 
+{
+    rejour60308.style.backgroundColor="#b82010"
+}
+
+
+
+
+// JOUR 7 
+
+if (afficheR7ubr0308>50) 
+{
+        rejour70308.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR7ubr0308<50)
+{
+    rejour70308.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR7ubr0308 === 0) 
+{
+    rejour70308.style.backgroundColor="#b82010"
+}
+
+
+
+
+
+// Delivero auto color 
+
+
+// JOUR 1 DEL 
+if (afficheR1dev0308>20)
+{
+    rejour1d0308.style.backgroundColor="#04A70B"
+}
+else if (afficheR1dev0308<20)
+ {
+    rejour1d0308.style.backgroundColor="#ED7F10"
+}
+
+// JOUR 2 DEL 
+
+if (afficheR2dev0308>20)
+{
+    rejour2d0308.style.backgroundColor="#04A70B"
+}
+else if (afficheR2dev0308<20)
+ {
+    rejour2d0308.style.backgroundColor="#ED7F10"
+}
+
+// JOUUR 3 
+
+if (afficheR3dev0308>20)
+{
+    rejour3d0308.style.backgroundColor="#04A70B"
+}
+else if (afficheR3dev0308<20)
+ {
+    rejour3d0308.style.backgroundColor="#ED7F10"
+}
+
+// JOUR 4 
+
+if (afficheR4dev0308>20)
+{
+    rejour4d0308.style.backgroundColor="#04A70B"
+}
+else if (afficheR4dev0308<20)
+ {
+    rejour4d0308.style.backgroundColor="#ED7F10"
+}
+
+// JOUR 5 
+
+if (afficheR5dev0308>20)
+{
+    rejour5d0308.style.backgroundColor="#04A70B"
+}
+else if (afficheR5dev0308<20)
+ {
+    rejour5d0308.style.backgroundColor="#ED7F10"
+}
+
+// JOUR 6 
+
+if (afficheR6dev0308>20)
+{
+    rejour6d0308.style.backgroundColor="#04A70B"
+}
+else if (afficheR6dev0308<20)
+ {
+    rejour6d0308.style.backgroundColor="#ED7F10"
+}
+
+// JOUR 7 
+if (afficheR7dev0308>20)
+{
+    rejour7d0308.style.backgroundColor="#04A70B"
+}
+else if (afficheR7dev0308<20)
+ {
+    rejour7d0308.style.backgroundColor="#ED7F10"
+}
+
+
+
+// 1008
+
+
+
+// Jour 1 UBR 
+if (afficheR1ubr1008>50) 
+{
+        rejour11008.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR1ubr1008<50)
+{
+    rejour11008.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR1ubr1008 === 0) 
+{
+    rejour11008.style.backgroundColor="#b82010"
+}
+
+
+// JOUR 2
+
+if (afficheR2ubr1008>50) 
+{
+        rejour21008.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR2ubr1008<50)
+{
+    rejour21008.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR2ubr1008 === 0) 
+{
+    rejour21008.style.backgroundColor="#b82010"
+}
+
+// JOUR 3 
+
+
+if (afficheR3ubr1008>50) 
+{
+        rejour31008.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR3ubr1008<50)
+{
+    rejour31008.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR3ubr1008 === 0) 
+{
+    rejour31008.style.backgroundColor="#b82010"
+}
+
+// JOUR 4 
+
+if (afficheR4ubr1008>50) 
+{
+        rejour41008.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR4ubr1008<50)
+{
+    rejour41008.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR4ubr1008 === 0) 
+{
+    rejour41008.style.backgroundColor="#b82010"
+}
+
+
+// JOUR 5
+
+if (afficheR5ubr1008>50) 
+{
+        rejour51008.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR5ubr1008<50)
+{
+    rejour51008.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR5ubr1008 === 0) 
+{
+    rejour51008.style.backgroundColor="#b82010"
+}
+
+// JOUR 6 
+
+if (afficheR6ubr1008>50) 
+{
+        rejour61008.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR6ubr1008<50)
+{
+    rejour61008.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR6ubr1008 === 0) 
+{
+    rejour61008.style.backgroundColor="#b82010"
+}
+
+
+
+
+// JOUR 7 
+
+if (afficheR7ubr1008>50) 
+{
+        rejour71008.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR7ubr1008<50)
+{
+    rejour71008.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR7ubr1008 === 0) 
+{
+    rejour71008.style.backgroundColor="#b82010"
+}
+
+
+
+
+
+// Delivero auto color 
+
+
+// JOUR 1 DEL 
+if (afficheR1dev1008>20)
+{
+    rejour1d1008.style.backgroundColor="#04A70B"
+}
+else if (afficheR1dev1008<20)
+ {
+    rejour1d1008.style.backgroundColor="#ED7F10"
+}
+
+// JOUR 2 DEL 
+
+if (afficheR2dev1008>20)
+{
+    rejour2d1008.style.backgroundColor="#04A70B"
+}
+else if (afficheR2dev1008<20)
+ {
+    rejour2d1008.style.backgroundColor="#ED7F10"
+}
+
+// JOUUR 3 
+
+if (afficheR3dev1008>20)
+{
+    rejour3d1008.style.backgroundColor="#04A70B"
+}
+else if (afficheR3dev1008<20)
+ {
+    rejour3d1008.style.backgroundColor="#ED7F10"
+}
+
+// JOUR 4 
+
+if (afficheR4dev1008>20)
+{
+    rejour4d1008.style.backgroundColor="#04A70B"
+}
+else if (afficheR4dev1008<20)
+ {
+    rejour4d1008.style.backgroundColor="#ED7F10"
+}
+
+// JOUR 5 
+
+if (afficheR5dev1008>20)
+{
+    rejour5d1008.style.backgroundColor="#04A70B"
+}
+else if (afficheR5dev1008<20)
+ {
+    rejour5d1008.style.backgroundColor="#ED7F10"
+}
+
+// JOUR 6 
+
+if (afficheR6dev1008>20)
+{
+    rejour6d1008.style.backgroundColor="#04A70B"
+}
+else if (afficheR6dev1008<20)
+ {
+    rejour6d1008.style.backgroundColor="#ED7F10"
+}
+
+// JOUR 7 
+if (afficheR7dev1008>20)
+{
+    rejour7d1008.style.backgroundColor="#04A70B"
+}
+else if (afficheR7dev1008<20)
+ {
+    rejour7d1008.style.backgroundColor="#ED7F10"
+}
+
+
+
+///////  24/08
+
+
+
+// Jour 1 UBR 
+if (afficheR1ubr2408>50) 
+{
+        rejour12408.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR1ubr2408<50)
+{
+    rejour12408.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR1ubr2408 === 0) 
+{
+    rejour12408.style.backgroundColor="#b82010"
+}
+
+
+// JOUR 2
+
+if (afficheR2ubr2408>50) 
+{
+        rejour22408.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR2ubr2408<50)
+{
+    rejour22408.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR2ubr2408 === 0) 
+{
+    rejour22408.style.backgroundColor="#b82010"
+}
+
+// JOUR 3 
+
+
+if (afficheR3ubr2408>50) 
+{
+        rejour32408.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR3ubr2408<50)
+{
+    rejour32408.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR3ubr2408 === 0) 
+{
+    rejour32408.style.backgroundColor="#b82010"
+}
+
+// JOUR 4 
+
+if (afficheR4ubr2408>50) 
+{
+        rejour42408.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR4ubr2408<50)
+{
+    rejour42408.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR4ubr2408 === 0) 
+{
+    rejour42408.style.backgroundColor="#b82010"
+}
+
+
+// JOUR 5
+
+if (afficheR5ubr2408>50) 
+{
+        rejour52408.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR5ubr2408<50)
+{
+    rejour52408.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR5ubr2408 === 0) 
+{
+    rejour52408.style.backgroundColor="#b82010"
+}
+
+// JOUR 6 
+
+if (afficheR6ubr2408>50) 
+{
+        rejour62408.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR6ubr2408<50)
+{
+    rejour62408.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR6ubr2408 === 0) 
+{
+    rejour62408.style.backgroundColor="#b82010"
+}
+
+
+
+
+// JOUR 7 
+
+if (afficheR7ubr2408>50) 
+{
+        rejour72408.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR7ubr2408<50)
+{
+    rejour72408.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR7ubr2408 === 0) 
+{
+    rejour72408.style.backgroundColor="#b82010"
+}
+
+
+
+
+
+// Delivero auto color 
+
+
+// JOUR 1 DEL 
+if (afficheR1dev2408>20)
+{
+    rejour1d2408.style.backgroundColor="#04A70B"
+}
+else if (afficheR1dev2408<20)
+ {
+    rejour1d2408.style.backgroundColor="#ED7F10"
+}
+
+// JOUR 2 DEL 
+
+if (afficheR2dev2408>20)
+{
+    rejour2d2408.style.backgroundColor="#04A70B"
+}
+else if (afficheR2dev2408<20)
+ {
+    rejour2d2408.style.backgroundColor="#ED7F10"
+}
+
+// JOUUR 3 
+
+if (afficheR3dev2408>20)
+{
+    rejour3d2408.style.backgroundColor="#04A70B"
+}
+else if (afficheR3dev2408<20)
+ {
+    rejour3d2408.style.backgroundColor="#ED7F10"
+}
+
+// JOUR 4 
+
+if (afficheR4dev2408>20)
+{
+    rejour4d2408.style.backgroundColor="#04A70B"
+}
+else if (afficheR4dev2408<20)
+ {
+    rejour4d2408.style.backgroundColor="#ED7F10"
+}
+
+// JOUR 5 
+
+if (afficheR5dev2408>20)
+{
+    rejour5d2408.style.backgroundColor="#04A70B"
+}
+else if (afficheR5dev2408<20)
+ {
+    rejour5d2408.style.backgroundColor="#ED7F10"
+}
+
+// JOUR 6 
+
+if (afficheR6dev2408>20)
+{
+    rejour6d2408.style.backgroundColor="#04A70B"
+}
+else if (afficheR6dev2408<20)
+ {
+    rejour6d2408.style.backgroundColor="#ED7F10"
+}
+
+// JOUR 7 
+if (afficheR7dev2408>20)
+{
+    rejour7d2408.style.backgroundColor="#04A70B"
+}
+else if (afficheR7dev2408<20)
+ {
+    rejour7d2408.style.backgroundColor="#ED7F10"
+}
+
+
+
+// 1708 
+
+
+// Jour 1 UBR 
+if (afficheR1ubr1708>50) 
+{
+        rejour11708.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR1ubr1708<50)
+{
+    rejour11708.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR1ubr1708 === 0) 
+{
+    rejour11708.style.backgroundColor="#b82010"
+}
+
+
+// JOUR 2
+
+if (afficheR2ubr1708>50) 
+{
+        rejour21708.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR2ubr1708<50)
+{
+    rejour21708.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR2ubr1708 === 0) 
+{
+    rejour21708.style.backgroundColor="#b82010"
+}
+
+// JOUR 3 
+
+
+if (afficheR3ubr1708>50) 
+{
+        rejour31708.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR3ubr1708<50)
+{
+    rejour31708.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR3ubr1708 === 0) 
+{
+    rejour31708.style.backgroundColor="#b82010"
+}
+
+// JOUR 4 
+
+if (afficheR4ubr1708>50) 
+{
+        rejour41708.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR4ubr1708<50)
+{
+    rejour41708.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR4ubr1708 === 0) 
+{
+    rejour41708.style.backgroundColor="#b82010"
+}
+
+
+// JOUR 5
+
+if (afficheR5ubr1708>50) 
+{
+        rejour51708.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR5ubr1708<50)
+{
+    rejour51708.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR5ubr1708 === 0) 
+{
+    rejour51708.style.backgroundColor="#b82010"
+}
+
+// JOUR 6 
+
+if (afficheR6ubr1708>50) 
+{
+        rejour61708.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR6ubr1708<50)
+{
+    rejour61708.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR6ubr1708 === 0) 
+{
+    rejour61708.style.backgroundColor="#b82010"
+}
+
+
+
+
+// JOUR 7 
+
+if (afficheR7ubr1708>50) 
+{
+        rejour71708.style.backgroundColor="#04A70B"
+}
+
+else if (afficheR7ubr1708<50)
+{
+    rejour71708.style.backgroundColor="#ED7F10"
+
+}
+else if (afficheR7ubr1708 === 0) 
+{
+    rejour71708.style.backgroundColor="#b82010"
+}
+
+
+
+
+
+// Delivero auto color 
+
+
+// JOUR 1 DEL 
+if (afficheR1dev1708>20)
+{
+    rejour1d1708.style.backgroundColor="#04A70B"
+}
+else if (afficheR1dev1708<20)
+ {
+    rejour1d1708.style.backgroundColor="#ED7F10"
+}
+
+// JOUR 2 DEL 
+
+if (afficheR2dev1708>20)
+{
+    rejour2d1708.style.backgroundColor="#04A70B"
+}
+else if (afficheR2dev1708<20)
+ {
+    rejour2d1708.style.backgroundColor="#ED7F10"
+}
+
+// JOUUR 3 
+
+if (afficheR3dev1708>20)
+{
+    rejour3d1708.style.backgroundColor="#04A70B"
+}
+else if (afficheR3dev1708<20)
+ {
+    rejour3d1708.style.backgroundColor="#ED7F10"
+}
+
+// JOUR 4 
+
+if (afficheR4dev1708>20)
+{
+    rejour4d1708.style.backgroundColor="#04A70B"
+}
+else if (afficheR4dev1708<20)
+ {
+    rejour4d1708.style.backgroundColor="#ED7F10"
+}
+
+// JOUR 5 
+
+if (afficheR5dev1708>20)
+{
+    rejour5d1708.style.backgroundColor="#04A70B"
+}
+else if (afficheR5dev1708<20)
+ {
+    rejour5d1708.style.backgroundColor="#ED7F10"
+}
+
+// JOUR 6 
+
+if (afficheR6dev1708>20)
+{
+    rejour6d1708.style.backgroundColor="#04A70B"
+}
+else if (afficheR6dev1708<20)
+ {
+    rejour6d1708.style.backgroundColor="#ED7F10"
+}
+
+// JOUR 7 
+if (afficheR7dev1708>20)
+{
+    rejour7d1708.style.backgroundColor="#04A70B"
+}
+else if (afficheR7dev1708<20)
+ {
+    rejour7d1708.style.backgroundColor="#ED7F10"
+}
+
+
+
+
 
 
 

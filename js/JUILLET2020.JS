@@ -588,14 +588,14 @@ rtotal2707=document.getElementById("270720Restltr")
 
 
 afficheR1ubr2707= 62.00
-afficheR2ubr2707= 0.00
-afficheR3ubr2707= 0.00
-afficheR4ubr2707= 0.00
-afficheR5ubr2707= 0.00
+afficheR2ubr2707= 29.79
+afficheR3ubr2707= 59.07
+afficheR4ubr2707= 53.83
+afficheR5ubr2707= 118.99
 afficheR6ubr2707= 0.00
 afficheR7ubr2707= 0.00
 
-afficheR1dev2707= 9,70
+afficheR1dev2707= 9.70
 afficheR2dev2707= 0.00
 afficheR3dev2707= 0.00
 afficheR4dev2707= 0.00

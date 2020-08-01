@@ -108,6 +108,11 @@ function cachecache1307 ()
     document.getElementById("tables2007").style.display="none"
     document.getElementById("tables2707").style.display="none"
 
+     
+    document.getElementById("tables1708").style.display="none"
+    document.getElementById("tables2408").style.display="none"
+    document.getElementById("tables0308").style.display="none"
+
 
 
 
@@ -126,6 +131,11 @@ function cachecache2007 ()
     document.getElementById("tables2007").style.display="block"
     document.getElementById("tables2707").style.display="none"
 
+     
+    document.getElementById("tables1708").style.display="none"
+    document.getElementById("tables2408").style.display="none"
+    document.getElementById("tables0308").style.display="none"
+
 
 
 
@@ -143,6 +153,10 @@ function cachecache2707 ()
     document.getElementById("tables1307").style.display="none"
     document.getElementById("tables2007").style.display="none"
     document.getElementById("tables2707").style.display="block"
+     
+    document.getElementById("tables1708").style.display="none"
+    document.getElementById("tables2408").style.display="none"
+    document.getElementById("tables0308").style.display="none"
 
 
 
@@ -153,6 +167,91 @@ function cachecache2707 ()
 
     
 }
+
+
+
+function cachecache0308 ()
+{
+    document.getElementById("tables0607").style.display="none"
+    document.getElementById("tables2906").style.display="none"
+    document.getElementById("tables1307").style.display="none"
+    document.getElementById("tables2007").style.display="none"
+    document.getElementById("tables2707").style.display="none"
+    
+    
+    
+    document.getElementById("tables0308").style.display="block"  
+    document.getElementById("tables1708").style.display="none"
+    document.getElementById("tables2408").style.display="none"
+
+
+
+
+
+}
+
+
+function cachecache1008 ()
+{
+    document.getElementById("tables0607").style.display="none"
+    document.getElementById("tables2906").style.display="none"
+    document.getElementById("tables1307").style.display="none"
+    document.getElementById("tables2007").style.display="none"
+    document.getElementById("tables2707").style.display="none"
+   
+    document.getElementById("tables1008").style.display="block"
+
+    document.getElementById("tables1708").style.display="none"
+    document.getElementById("tables2408").style.display="none"
+    document.getElementById("tables0308").style.display="none"
+
+    
+
+
+}
+
+
+function cachecache1708 ()
+{
+    document.getElementById("tables0607").style.display="none"
+    document.getElementById("tables2906").style.display="none"
+    document.getElementById("tables1307").style.display="none"
+    document.getElementById("tables2007").style.display="none"
+    document.getElementById("tables2707").style.display="none"
+    document.getElementById("tables0308").style.display="none"
+    document.getElementById("tables2408").style.display="none"
+    document.getElementById("tables1708").style.display="block"
+
+
+    document.getElementById("tables1008").style.display="none"
+    document.getElementById("tables2408").style.display="none"
+
+    
+
+
+
+
+}
+
+function cachecache2408 ()
+{
+    document.getElementById("tables0607").style.display="none"
+    document.getElementById("tables2906").style.display="none"
+    document.getElementById("tables1307").style.display="none"
+    document.getElementById("tables2007").style.display="none"
+    document.getElementById("tables2707").style.display="none"
+    document.getElementById("tables0308").style.display="none"
+    document.getElementById("tables2408").style.display="block"
+    document.getElementById("tables1708").style.display="none"
+    
+
+
+
+
+
+}
+
+
 
 
 moiP = document.getElementById("moiPrincipal")
@@ -237,6 +336,8 @@ function recup08 ()
 {
     moiP.style.display="none"
     btnRetour.style.display="block"
+    document.getElementById("semaineAout").style.display="block"
+
 
     
 }
@@ -295,6 +396,15 @@ function back ()
         document.getElementById("tables1307").style.display="none"
         document.getElementById("tables2007").style.display="none"
         document.getElementById("tables2707").style.display="none"
+        document.getElementById("tables0308").style.display="none"
+        document.getElementById("tables1008").style.display="none"
+        document.getElementById("tables2408").style.display="none"
+        document.getElementById("tables1708").style.display="none"
+
+
+
+        document.getElementById("semaineAout").style.display="none"
+
 
 
 
